@@ -1,0 +1,240 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-section{
+    padding: 50px 20px 10px 40px ;
+    padding-left:20px;
+}
+
+.section1{
+    display: flex;
+}
+.section1 .box-hover{
+    box-shadow: none;
+}
+.section1 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section2{
+    display: flex;
+}
+.section2 .box-hover{
+    box-shadow: none;
+}
+.section2 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section3{
+    display: flex;
+}
+.section3 .box-hover{
+    box-shadow: none;
+}
+.section3 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section4{
+    display: flex;
+}
+.section4 .box-hover{
+    box-shadow: none;
+}
+.section4 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section5{
+    display: flex;
+}
+.section5 .box-hover{
+    box-shadow: none;
+}
+.section5 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.section6{
+    display: flex;
+}
+.section6 .box-hover{
+    box-shadow: none;
+}
+.section6 .box-hover .box-img img{
+    transform: scale(2.2);
+    transition: .8s;
+}
+.box-img{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.box-img img{
+    height: 100%;
+    width: 100%;
+    transition: .8s;
+}
+.box-content{
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.box-content .btn-style{
+    text-decoration: none;
+    background-color: blue;
+    color:brown;
+    font-weight:500;
+    font-size:medium;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* Responsive */
+/* Mobile */
+@media screen and (max-width: 600px){
+    .main-section{
+     padding: 10px;
+    }
+    .main-section{
+     font-size: 25px;
+     margin-bottom: 20px;
+    }
+     .section1 .box{
+    display: block;
+    }
+    .section1 .box, .box1, .box2{
+    width: auto;
+    }
+}
+
+
+/* Tablet*/
+@media (min-width: 601px) and (max-width: 912px){
+    .main-section{
+        padding: 20px;
+    }
+    .box-img{
+        height: 150px;
+    }
+}

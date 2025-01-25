@@ -1,0 +1,727 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="width-device-width,initial-scale=1.0">
+    <!-- SEO -->
+    <meta name="description" content=" ">
+    <meta name="keywords" content="web development, internship, online">
+    <title>ASSESSMENT-1</title>
+    <link rel="shortcut icon" href=" " type="image/x-icon">
+    <!-- boootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+
+  
+
+  <div>
+    <div class="container pt-1 pb-5">
+      <div class="row">
+         <div class="col-md-7">
+             <h4>Sign Up Form</h4>
+             <form onsubmit="return validation();">
+                <div class="mb-3">
+                  <label for="exampleInput1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="exampleInput1">
+                  <span id="error-name" style="color:red; font-size: 10px;">Invalid Name</span>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <span id="error-email" style="color:red; font-size: 10px;">Invalid Name</span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInput2" class="form-label">Contact Number</label>
+                    <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="Help">
+                    <span id="error-number" style="color:red; font-size: 10px;">Invalid</span>
+                  </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">New Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <span id="error-password" style="color:red; font-size: 10px;">Invalid</span>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword2" class="form-label">Verify Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    <span id="error-v-password" style="color:red; font-size: 10px;">Invalid</span>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+           </div>
+        </div>
+    </div>
+  </div>
+
+
+
+  <section01 class="slides">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/offer1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>OFFERS OPEN</h5>
+          <p>Get started with the sale OFFER BEGINS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/offer2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>OFFERS OPEN</h5>
+          <p>50% OFF</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="image/offer3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>OFFERS OPEN</h5>
+          <p>SALE OPEN</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- dividing screen width into unequal parts -->
+ 
+<div class="section1">
+  <h1>BOOKS AND DIARIES SECTION</h1>
+  <div class="box1">
+      <div class="box-img">
+          <img src="image/books1.jpg" width="100" alt="image">
+      </div>
+      <div class="box-content">
+          <button>BUY NOW</button>
+          <Rs class="price"> starting at Rs.119/-</Rs>
+          <a href="#" class="btn-style" >View Details</a>
+      </div>
+  </div>
+  <div class="box2">
+      <div class="box-img">
+        <img src="image/books2.jpg" width="100" alt="image">
+      </div>
+     <div class="box-content">
+        <button>BUY NOW</button>
+        <Rs class="price">Rs.150/-</Rs>
+        <a href="#" class="btn-style" >View Details</a>
+     </div>
+  </div>
+  <div class="box3">
+      <div class="box-img">
+        <img src="image/books3.jpg" width="100" alt="image">
+      </div>
+      <div class="box-content">
+         <button>BUY NOW</button>
+         <Rs class="price"> starting at Rs.200/-</Rs>
+         <a href="#" class="btn-style" >View Details</a>
+      </div>
+  </div>
+  <div class="box4">
+    <div class="box-img">
+      <img src="image/books4.jpg" width="100" alt="image">
+    </div>
+    <div class="box-content">
+       <button>BUY NOW</button>
+       <Rs class="price">starting at Rs.220/-</Rs>
+       <a href="#" class="btn-style" >View Details</a>
+    </div>
+ </div>
+ <div class="box5">
+  <div class="box-img">
+    <img src="image/books5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.250/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box6">
+  <div class="box-img">
+    <img src="image/books6.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting from Rs.185/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box7">
+  <div class="box-img">
+    <img src="image/books7.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.300/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+<div class="section2">
+  <h1>BEAUTY PRODUCTS</h1>
+ <div class="box8">
+  <div class="box-img">
+    <img src="image/makeup1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.300/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box9">
+  <div class="box-img">
+    <img src="image/makeup2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.450/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box10">
+  <div class="box-img">
+    <img src="image/makeup3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starts from Rs.450/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box11">
+  <div class="box-img">
+    <img src="image/makeup4.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.650/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box12">
+  <div class="box-img">
+    <img src="image/makeup5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.720/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box13">
+  <div class="box-img">
+    <img src="image/makeup6.jpg" width="100" alt="image">
+  </div>
+ </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+</div>
+<div class="section3">
+  <h1>GIRLS WEAR</h1>
+ <div class="box14">
+  <div class="box-img">
+    <img src="image/womens1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.199/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box15">
+  <div class="box-img">
+    <img src="image/womens2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.250/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box16">
+  <div class="box-img">
+    <img src="image/womens3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.299/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box17">
+  <div class="box-img">
+    <img src="image/womens4.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.899/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box18">
+  <div class="box-img">
+    <img src="image/womens5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.1999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box19">
+  <div class="box-img">
+    <img src="image/womens6.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting from Rs.899/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+<div class="section4">
+  <h1>MENS WEAR</h1>
+ <div class="box20">
+  <div class="box-img">
+    <img src="image/mens1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.450/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box21">
+  <div class="box-img">
+    <img src="image/mens2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.500/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box22">
+  <div class="box-img">
+    <img src="image/mens3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.650/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box23">
+  <div class="box-img">
+    <img src="image/mens4.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.720/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box24">
+  <div class="box-img">
+    <img src="image/mens5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.800/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box25">
+  <div class="box-img">
+    <img src="image/mens6.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting from Rs.500/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+<div class="section5">
+  <h1>HOME PRODUCTS AND UTILITIES</h1>
+ <div class="box26">
+  <div class="box-img">
+    <img src="image/home1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">Rs.1999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box27">
+  <div class="box-img">
+    <img src="image/home2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">strating from Rs.2999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box28">
+  <div class="box-img">
+    <img src="image/home3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">Rs.1559/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box29">
+  <div class="box-img">
+    <img src="image/home4.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">Rs.3899/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box30">
+  <div class="box-img">
+    <img src="image/home5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">starting at Rs.2999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box31">
+  <div class="box-img">
+    <img src="image/home6.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>PURCHASE NOW</button>
+     <Rs class="price">Rs.5999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+<div class="section6">
+  <h1>ELECTRONICS</h1>
+ <div class="box32">
+  <div class="box-img">
+    <img src="image/elec1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting from Rs.599/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box33">
+  <div class="box-img">
+    <img src="image/elec2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.899/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box34">
+  <div class="box-img">
+    <img src="image/elec3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box35">
+  <div class="box-img">
+    <img src="image/elec4.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.890/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box36">
+  <div class="box-img">
+    <img src="image/elec5.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.950/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box37">
+  <div class="box-img">
+    <img src="image/elec6.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.999/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+<div class="section7">
+  <h1>KIDS SECTION</h1>
+ <div class="box38">
+  <div class="box-img">
+    <img src="image/toys1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.199/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box39">
+  <div class="box-img">
+    <img src="image/toys2.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.350/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box40">
+  <div class="box-img">
+    <img src="image/toys3.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.450/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box41">
+  <div class="box-img">
+    <img src="image/kidswear1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.299/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box42">
+  <div class="box-img">
+    <img src="image/girls1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">starting at Rs.399/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+ <div class="box43">
+  <div class="box-img">
+    <img src="image/girldress1.jpg" width="100" alt="image">
+  </div>
+  <div class="box-content">
+     <button>BUY NOW</button>
+     <Rs class="price">Rs.890/-</Rs>
+     <a href="#" class="btn-style" >View Details</a>
+  </div>
+ </div>
+</div>
+
+
+
+
+<div>
+  <div class="container pt-2 pb-5">
+    <div class="row">
+       <div class="col-md-7">
+           <h4>Address Form</h4>
+           <form onsubmit="return validation();">
+              <div class="mb-3">
+                <label for="exampleInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInput1">
+                <span id="error-name" style="color:red; font-size: 10px;">Invalid Name</span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInput2" class="form-label">State</label>
+                <input type="text" class="form-control" id="exampleInput2">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleInput3" class="form-label">District</label>
+                  <input type="text" class="form-control" id="exampleInput3">
+                  <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+                </div>
+              <div class="mb-3">
+                <label for="exampleInput4" class="form-label">mandal</label>
+                <input type="text" class="form-control" id="exampleInput4">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleInput5" class="form-label">city/village</label>
+                  <input type="text" class="form-control" id="exampleInput5">
+                  <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInput6" class="form-label">area/street name</label>
+                <input type="text" class="form-control" id="exampleInput6">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+             </div>
+              <div class="mb-3">
+               <label for="exampleInput7" class="form-label">landmarks if any</label>
+               <input type="text" class="form-control" id="exampleInput7">
+             </div>
+             <div class="mb-3">
+              <label for="exampleInput8" class="form-label">pincode</label>
+              <input type="number" class="form-control" id="exampleInput8">
+              <span id="error-number" style="color:red; font-size: 10px;">Invalid</span>
+           </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+         </div>
+      </div>
+  </div>
+</div>
+
+
+<div>
+  <div class="container pt-3 pb-5">
+    <div class="row">
+       <div class="col-md-7">
+           <h4>Billing Form</h4>
+           <form onsubmit="return validation();">
+              <div class="mb-3">
+                <label for="exampleInput1" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInput1">
+                <span id="error-name" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInput2" class="form-label">State</label>
+                <input type="text" class="form-control" id="exampleInput2">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleInput3" class="form-label">District</label>
+                  <input type="text" class="form-control" id="exampleInput3">
+                  <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+                </div>
+              <div class="mb-3">
+                <label for="exampleInput4" class="form-label">mandal</label>
+                <input type="text" class="form-control" id="exampleInput4">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                  <label for="exampleInput5" class="form-label">city/village</label>
+                  <input type="text" class="form-control" id="exampleInput5">
+                  <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInput6" class="form-label">area/street name</label>
+                <input type="text" class="form-control" id="exampleInput6">
+                <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+             </div>
+              <div class="mb-3">
+               <label for="exampleInput7" class="form-label">landmarks if any</label>
+               <input type="text" class="form-control" id="exampleInput7">
+             </div>
+             <div class="mb-3">
+              <label for="exampleInput8" class="form-label">pincode</label>
+              <input type="text" class="form-control" id="exampleInput8">
+              <span id="error-text" style="color:red; font-size: 10px;">Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInput9" class="form-label">total price</label>
+              <input type="numbers" class="form-control" id="exampleInput9">
+              <span id="error-number" style="color:red; font-size: 10px;">Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInput10" class="form-label">discount</label>
+              <input type="numbers" class="form-control" id="exampleInput10">
+              <span id="error-number" style="color:red; font-size: 10px;">Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInput11" class="form-label">total bill along with GST</label>
+              <input type="numbers" class="form-control" id="exampleInput11">
+              <span id="error-number" style="color:red; font-size: 10px;">Invalid</span>
+            </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+         </div>
+      </div>
+  </div>
+</div>
+
+
+
+ <!-- order placed page -->
+ <link> <a href="assessment/assessment/order placed page.html">CHECK ORDER DETAILS</a> <link>
+ 
+
+ <!--  billing form -->
+ <a href="assessment/order placed page.html" >Billing Form</a>
+
+
+ <!-- anchor tag -->
+   <a href="sub-pages/primaryabout.html">About Us</a>
+   <a href="https://www.google.com/amazon.com" target="_blank">Google</a>
+   <a href="https://www.instagram.com//prasad_trekking_telugu" target="_blank">Instagram</a>
+
+
+ <!-- Contact -->
+   <a href="mailto: amazon@gmail.com">Email Us</a> <br>
+   <a href="tel: +9118882804331">Call Us</a> <br>
+   <a href="https://wa.me/+918003885512" target="_blank">Whatsapp</a>
+
+
+  <!-- jquery CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+  integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ 
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+
+  <!-- owl carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" 
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+
+
+
+      
+</body>
